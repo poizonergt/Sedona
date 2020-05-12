@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Руслан Гелисханов](https://up.htmlacademy.ru/htmlcss/28/user/1449897).
-* Наставник: `Влад Кривокора`.
+* Наставник: [Влад Кривокора](https://htmlacademy.ru/profile/krivokora).
 
 ---
 
