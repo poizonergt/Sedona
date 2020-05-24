@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang='ru'>
     <head>
-        <meta charset="utf-8">
+        <meta charset='utf-8'>
         <title>Седона</title>
     </head>
     <body>
         <header>
             <nav>
-                <a href=''><img src='img/sedona_logo.svg' width='130px' height='70px' alt='логотип Седоны'></a>
+                <a href=''><img src='img/logo_sedona.svg' width='130' height='70' alt='логотип Седоны'></a>
                 <ul>
                     <li><a href=''>Информация</a></li>
                     <li><a href=''>Фото и видео</a></li>
@@ -19,7 +19,7 @@
 
         <main>
             <div>
-                  <img src='img/welcome_text.svg' width='456.65px' height='350.88px' alt='Welcome to the gorgeous Sedona'>
+                  <img src='img/welcome_text.svg' width='457' height='351' alt='Welcome to the gorgeous Sedona'>
             </div>
             <section>
                   <h3>
@@ -31,15 +31,92 @@
                   </p>
             </section>
 
+            <ul>
+                <li>
+                    <h3>Настоящий городок</h3>
+                    <p>-№1-</p>
+                    <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
+                </li>
+                <li>
+                    <p>Жилье</p>
+                    <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                </li>
+                <li>
+                    <p>Еда</p>
+                    <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                </li>
+                <li>
+                    <p>Сувениры</p>
+                    <p>Не только китайского, но и местного производства!</p>
+                </li>
+                <li>
+                    <h3>Там есть мост дьявола</h3>
+                    <p>-№2-</p>
+                    <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+                </li>
+                <li>
+                    <h3>Небольшая площадь</h3>
+                    <p>-№3-</p>
+                    <p>все достопримечательности находятся очень близко</p>
+                </li>
+                <li>
+                    <h3>Красивая дорога</h3>
+                    <p>-№4-</p>
+                    <p>ехать в седону из лас-вегаса совсем не скучно!</p>
+                </li>
+                <li>
+                    <h3>Мало туристов</h3>
+                    <p>-№5-</p>
+                    <p>большинство едет в гранд каньон и толпится там</p>
+                </li>
+            </ul>
+
             <section>
                    <h2>Заинтересовались?</h2>
                    <p>
                         Укажите предполагаемые даты поездки,
                         и мы покажем вам лучшие предложения гостиниц в Седоне   
                    </p>
-                   <h3> Поиск гостиницы в Седоне</h3>
-                   <!--Форма поиска-->
+                   <h3> Поиск гостиницы в Седоне</h3>                  
             </section>
+
+            <div>
+                <form action='https://echo.htmlacademy.ru' method='post'>
+                <div>    
+                    <label>Дата заезда:</label>
+                    <input type='text' name='date' id='date-in' placeholder='24 апреля 2017'>
+                    <button><img src=img/icon_calendar.svg></button>
+                </div>
+                <div> 
+                    <label>Дата выезда:</label>
+                    <input type='text' name='date' id='date-out' placeholder='4 июля 2017'>
+                    <button><img src=img/icon_calendar.svg></button>
+                </div>
+                    <div>
+                        <div>
+                            <label>
+                                <button>-</button>
+                                <input type='text' name='adults' placeholder='2' id='adults-q'>
+                                <button>+</button>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <button>-</button>
+                                <input type='text' name='child' placeholder='0' id='child-q'>
+                                <button>+</button>
+                            </label>
+                        </div>
+                    </div>
+                    <button type='submit'>Найти</button>
+                
+                </form>  
+            </div>
+            
+            <div>
+                <!--тут будет карта-->
+            </div>
 
         </main>
         
@@ -48,14 +125,14 @@
                <p>Тел: +7(495)666-02-66</p>
 
                <ul>
-                <li><a href=""><img src='img/twitter_icon.svg' width='46px' height='48px' alt='перейти на страницу в твиттере'></a></li>
-                <li><a href=""><img src='img/facebook_icon.svg' width='46px' height='48px' alt='перейти на страницу в фейсбуке'></a></li>
-                <li><a href=""><img src='img/youtube_icon.svg' width='46px' height='48px' alt='перейти на страницу канала на ютуб'></a></li>
+                <li><a href=''><img src='img/icon_twitter.svg' width='46' height='48' alt='перейти на страницу в твиттере'></a></li>
+                <li><a href=''><img src='img/icon_facebook.svg' width='46' height='48' alt='перейти на страницу в фейсбуке'></a></li>
+                <li><a href=''><img src='img/icon_youtube.svg' width='46' height='48' alt='перейти на страницу канала на ютуб'></a></li>
                </ul>
                 
                <p>
                    Website by
-                   <a href='https://htmlacademy.ru'><img src='img/logo-htmlacademy.svg' width='115px' height='41px' alt='перейти на главную страницу HTML-Академии'></a>
+                   <a href='https://htmlacademy.ru'><img src='img/logo_htmlacademy.svg' width='115' height='41' alt='перейти на главную страницу HTML-Академии'></a>
                </p>
         </footer>
     
