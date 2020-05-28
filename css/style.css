@@ -1,0 +1,371 @@
+/*VARIABLE*/
+
+:root {
+    --basic-black: #000000;
+    --basic-lightgrey: #EEEEEE;
+    --basic-white: #ffffff;
+    --basic-darkgrey: #333333;
+    --basic-grey: #b2b2b2;
+    --basic-brown: #766357;
+    --basic-blue: #81B3D2;
+
+    --special-brown: #766357;
+    --special-lightgrey: #BDBBBC;
+    --special-grey: #F2F2F2;
+    --special-darkgreyP: #666666;
+    
+    --opacity-black: rgba(0, 0, 0, 0.3);
+
+    --hover-blue: #669EC0;
+    --hover-brown: #604E43;
+    --active-brown: #503E33;
+    --active-white: rgba(255, 255, 255, 0.3);
+    --active-blue: #5496BD;
+}
+
+/*GLOBAL*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", "Arial", sans-serif;
+	font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    min-width: 1200px;
+    font-weight: 400;
+    color: var(--basic-darkgrey);
+    background-color: var(--basic-white);
+} 
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+/*MAIN-NAVIGATION*/
+
+.main-navigation {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    background-color: var(--basic-white);
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: var(--basic-blue);
+}
+
+.site-navigation a:active {
+    color: var(--basic-brown);
+}
+
+.welcome {
+    background-image: url(../img/photo_background.jpg);
+    background-repeat: no-repeat;
+}
+
+.welcome:after {
+    content:'';
+    background-image: url(../img/main_mask.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;      
+    height: 57px;
+}
+
+
+
+/*MAIN-CONTENT*/
+
+.reason-title {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.reasons-five {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.booking-header {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 24px;
+}
+
+.offer-text {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+
+/*FOOTER*/
+
+.page-footer {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.hashtag {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.phone-number {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.developer-logo {
+   width: 115px;
+   height: 41px;
+}
+
+.developer-logo:hover {
+    fill: var(--basic-blue);
+}
+
+.developer-logo:active {
+    fill: var(--special-lightgrey);
+}
+
+.social-youtube {
+    display: block;
+    width: 46px;
+    height: 48px;
+    background-color: var(--basic-blue);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.social-youtube:hover {
+    background-color: var(--hover-blue);
+}
+
+.social-youtube:active {
+    background-color: var(--active-blue);
+    mix-blend-mode: normal;
+    fill-opacity: 0.3;
+}
+
+.social-twitter {
+    display: block;
+    width: 46px;
+    height: 48px;
+    background-color: var(--basic-blue);
+    box-sizing: border-box;
+    padding-top: 15.5px;
+    padding-bottom: 15.5px;
+}
+
+.social-twitter:hover {
+    background-color: var(--hover-blue);
+}
+
+.social-twitter:active {
+    background-color: var(--active-blue);
+    mix-blend-mode: normal;
+    fill-opacity: 0.3;
+}
+
+.social-facebook {
+    display: block;
+    width: 46px;
+    height: 48px;
+    background-color: var(--basic-blue);
+    box-sizing: border-box;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.social-facebook:hover {
+    background-color: var(--hover-blue);
+}
+
+.social-facebook:active {
+    background-color: var(--active-blue);
+    mix-blend-mode: normal;
+    fill-opacity: 0.3;
+}
+
+
+
+
+/*****INNER.HTML*****/
+
+/**HOUSING SEARCH RESULT SECTION**/
+
+.hotel-name {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--basic-black);
+}
+.hotel-name:hover {
+    color: var(--basic-blue);
+}
+
+.hotel-name:active {
+    color: var(--basic-lightgrey);
+}
+.price {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.overall-rating {
+    display: block;
+    color: var(--special-darkgrey);
+    background-color: var(--special-grey);
+    width: 118px;
+    height: 27px;
+    box-sizing: border-box;;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+
+.housing-type {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.housing-details {
+    display: block;
+    color:var(--basic-white);
+    background-color:var(--basic-blue);
+    font-size:14px;
+    line-height: 21px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 110px;
+    height: 27px;
+    box-sizing: border-box;;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 3px;
+      
+}
+
+.housing-book {
+    display: block;
+    color: var(--basic-white);
+    background-color: var(--special-brown);
+    background-size: cover;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none; 
+    width: 142px;
+    height: 27px; 
+    box-sizing: border-box;;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+
+.housing-details:hover {
+    background-color: var(--hover-blue);
+}
+
+.housing-details:active {
+    background-color: var(--active-blue);
+    color: var(--active-white);
+}
+
+.housing-book:hover {
+    background-color: var(--hover-brown);
+}
+
+.housing-book:active {
+    background-color: var(--active-brown);
+    color: var(--active-white);
+}
+
+/**SORTING SECTION**/
+
+.result-title {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.sorting-title {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+/*SORT BY PRICE*/
+.sort-by-price {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    border-bottom: 1px dashed var(--opacity-black);
+    color: var(--opacity-black);
+}
+
+.sort-by-price:hover {
+    color: var(--basic-blue);
+    border-bottom: 1px dashed var(--basic-blue);
+}
+
+.sort-by-price:active {
+    color: var(--basic-black);
+    border: none;
+}
+
+/*SORT BY RATING*/
+.sort-by-rating {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    border-bottom: 1px dashed var(--opacity-black);
+    color: var(--opacity-black);
+}
+
+.sort-by-rating:hover {
+    color: var(--basic-blue);
+    border-bottom: 1px dashed var(--basic-blue);
+}
+
+.sort-by-rating:active {
+    color: var(--basic-black);
+    border: none;
+}
+
+/*SORT BY TYPE*/
+.sort-by-type {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    border-bottom: 1px dashed var(--opacity-black);
+    color: var(--opacity-black);
+}
+
+.sort-by-type:hover {
+    color: var(--basic-blue);
+    border-bottom: 1px dashed var(--basic-blue);
+}
+
+.sort-by-type:active {
+    color: var(--basic-black);
+    border: none;
+}
+
+
