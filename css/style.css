@@ -631,7 +631,7 @@
    
     .check-in {
         display: inline-block;
-    
+        vertical-align: top;
         
         margin-top: 55px;
         margin-left: 55px;
@@ -648,6 +648,7 @@
 
     .check-out {
         display: inline-block;
+        vertical-align: top;
 
         margin-left: 55px;
         margin-top: 29px;
@@ -718,8 +719,8 @@
     
     .calendar {
         position: relative; 
-        top: 5px;
-        right: 43.5px;
+        top: 63px;
+        right: 40px;
         fill: var(--gray);
 
         padding: 0;
@@ -730,6 +731,10 @@
         cursor: pointer;
         border: none;
         background-color: transparent;
+    }
+
+    .calendar:nth-of-type(2) {
+        top: 36px;
     }
 
     .calendar:hover {
