@@ -161,7 +161,7 @@
         align-items: center;
         justify-content: flex-start;
         min-height: 509px;
-        background-image: url(../img/photo_background.jpg);
+        background-image: url(../img/photo-background.jpg);
         background-repeat: no-repeat, no-repeat;
         background-position: 50% 100%;
         background-color: var(--basic-blue);
@@ -1062,12 +1062,6 @@
         fill: var(--special-lightgray);
     }
 
-
-
-
-
-    
-
     /*****INNER.HTML*****/
     .nav-hotels-active {
         color: var(--basic-brown);
@@ -1076,7 +1070,7 @@
     /**SEARCH FILTER**/
     .filter-section {
         position: relative;
-        background-image: url(../img/photo_background_blured.jpg);
+        background-image: url(../img/photo-background-blured.jpg);
         background-repeat: no-repeat;
         background-position: top;
         min-height: 217px;
